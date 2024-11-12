@@ -1,0 +1,47 @@
+auth0
+# Gradle-specific files
+.gradle/
+build/
+out/
+
+# Ignore dependency caches and wrapper binaries
+**/build/
+**/.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Project-specific files
+*.iml
+*.ipr
+*.iws
+
+# IDE-specific directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS-specific files
+.DS_Store
+
+# Java class files and logs
+*.class
+*.log
+*.war
+*.ear
+
+# Optional: Ignore logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.out
+*.class
+
+# Optional: Ignore coverage reports
+**/coverage/
+**/jacoco/
+
+# Optional: Ignore Maven files if using mixed projects
+target/
+pom.xml
+
